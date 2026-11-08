@@ -1,0 +1,4 @@
+engine,selection,method,val_ssim,test_ssim
+python,highest validation image-mean SSIM,plateau_p1000,0.8334797504312748,0.8625928197837
+cpp_exact_1,highest validation image-mean SSIM,plateau_p1000,0.8334797504312748,0.8625928197837
+cpp_fast_1,highest validation image-mean SSIM,plateau_p1000,0.8334797504312748,0.8625928197837

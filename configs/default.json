@@ -1,0 +1,28 @@
+{
+  "seed": 0,
+  "opencv_threads": 1,
+  "quality_workers": 4,
+  "latency_images_per_split": 64,
+  "latency_warmup": 20,
+  "latency_repeats": 5,
+  "methods": [
+    {"name":"he_14bit", "family":"he"},
+    {"name":"he_8bit_p01", "family":"he8", "tail_percent":0.1},
+    {"name":"clahe_c1_g4", "family":"clahe", "clip_limit":1.0, "grid":4, "tail_percent":0.1},
+    {"name":"clahe_c2_g8", "family":"clahe", "clip_limit":2.0, "grid":8, "tail_percent":0.1},
+    {"name":"clahe_c4_g8", "family":"clahe", "clip_limit":4.0, "grid":8, "tail_percent":0.1},
+    {"name":"clahe_c2_g16", "family":"clahe", "clip_limit":2.0, "grid":16, "tail_percent":0.1},
+    {"name":"clahe_c4_g16", "family":"clahe", "clip_limit":4.0, "grid":16, "tail_percent":0.1},
+    {"name":"plateau_p10", "family":"plateau", "plateau_count":10, "tail_percent":0.1},
+    {"name":"plateau_p100", "family":"plateau", "plateau_count":100, "tail_percent":0.1},
+    {"name":"plateau_p240", "family":"plateau", "plateau_count":240, "tail_percent":0.1},
+    {"name":"plateau_p1000", "family":"plateau", "plateau_count":1000, "tail_percent":0.1},
+    {"name":"linear_hist_p01", "family":"linear_hist", "tail_percent":0.1, "midpoint":127},
+    {"name":"linear_hist_p1", "family":"linear_hist", "tail_percent":1.0, "midpoint":127},
+    {"name":"linear_hist_p5", "family":"linear_hist", "tail_percent":5.0, "midpoint":127},
+    {"name":"manual_c1_b8192", "family":"manual", "contrast":1.0, "brightness":8192},
+    {"name":"auto_bright_c8", "family":"auto_bright", "contrast":8.0},
+    {"name":"auto_bright_c32", "family":"auto_bright", "contrast":32.0},
+    {"name":"auto_bright_c64", "family":"auto_bright", "contrast":64.0}
+  ]
+}

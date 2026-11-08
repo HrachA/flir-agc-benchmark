@@ -1,0 +1,8 @@
+{
+  "reference_metric_cache_used": true,
+  "full_dataset_pixel_comparison": true,
+  "exact_matches_reuse_metrics": true,
+  "changed_predictions_scored_against_vendor_jpeg": true,
+  "native_quality_threads": 1,
+  "multi_thread_check": "all 128 timing images; thread_determinism.csv"
+}

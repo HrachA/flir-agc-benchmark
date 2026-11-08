@@ -1,0 +1,19 @@
+{
+  "manifest_sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a",
+  "cuda_library_sha256": "d01c4d3d426eab9e1d698f027fd5e6bcaea71ff763d19e2b9e0c9941bf761876",
+  "sources": {
+    "agc_cuda/__init__.py": "955508411df8964bbaa0c4553e7a343800a8e3105b354a61647829c198c6875b",
+    "agc_cuda/backend.py": "045024415c8a9c0fe99fb5e0e102b6e06f055dc471037cb1b3465f44b3d346f6",
+    "agc_cuda/metrics.py": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2",
+    "agc_cuda/reference_methods.py": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca",
+    "agc_cuda/report.py": "b54bb6e9546207421452e64f0e5d21810cbe306ee88a1afa43b95c4102897b3d",
+    "agc_cuda/run.py": "2891a895ec7c0d30732f799c461b5a9f2627aa1569c0c4f3c5fa6c7712a179c6",
+    "agc_cuda/support.py": "367889da7cfaf5655c7091abed4030315df71c83925029b9eaec0f66ad51c5d5",
+    "agc_cuda/verify.py": "a842c08cb90bbdf2887e7b843d40feccd21be6edc38df8bd8f206c93f28ef67a",
+    "cuda/agc.cu": "88652bd38a5c74debfc0b6266dab616c4f22acbd445f07dd0b3225db96a35738",
+    "cuda/agc_cuda.h": "63630424b1624dc2bdd9a38f51dd8dafdd2002086502e380d1b8178ebed24bd8",
+    "CMakeLists.txt": "d3f900b61588e3c3afdd28b42e90720a7708fb2060604183f499358e43d0a490",
+    "configs/default.json": "177365976a169e4052ccd6fc071795f2c9829b9fb72d3da3135d0da52262f79b"
+  },
+  "dataset_root": "<WORKSPACE>\\flir-rgbt-yolo-experiments\\data\\FLIR_ADAS_v2"
+}

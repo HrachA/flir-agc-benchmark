@@ -1,0 +1,6 @@
+{
+  "manifest_sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a",
+  "config_sha256": "c3aabb6f64f8596fa217f7a870a3c271e6c02d8e4814d849c01cef7f4b9a1848",
+  "dataset_root": "<WORKSPACE>\\flir-rgbt-yolo-experiments\\data\\FLIR_ADAS_v2",
+  "number_of_pairs": 3295
+}

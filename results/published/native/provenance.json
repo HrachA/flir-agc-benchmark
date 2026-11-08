@@ -1,0 +1,28 @@
+{
+  "dataset_root": "<WORKSPACE>\\flir-rgbt-yolo-experiments\\data\\FLIR_ADAS_v2",
+  "manifest_sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a",
+  "dll_sha256": "92900282b69f0eac92350c92395631aaf4a4c43f0fbc9537715532437b1ef6d5",
+  "sources": {
+    "agc_native/__init__.py": "59d3ae9899b3c886ade713f789690fcb9e645a11e2e94ab41257c0e33fa2c7e7",
+    "agc_native/metrics.py": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2",
+    "agc_native/native.py": "477bdbe1de1836cde9a3bfdd400134fbd461c24fbd8070edb0fe8e0f0a7b24cc",
+    "agc_native/reference_methods.py": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca",
+    "agc_native/report.py": "aee234b685858f10caba48658329e51fc8e2679fdad913f67f6700ed6e6a95dd",
+    "agc_native/run.py": "91c355a6fae098de7c68c498d96b018727adce0e40ef77ed1f2557b2383abcd3",
+    "agc_native/support.py": "367889da7cfaf5655c7091abed4030315df71c83925029b9eaec0f66ad51c5d5",
+    "agc_native/verify.py": "0640f71a4f976adbb100992e2ddf0bc6de640e2f6f16c5b6aed17fa222819ddd",
+    "cpp/agc.cpp": "3ccdaae40adae747589db9dc28226e93afc182cb61272cd0eed971a45f975daa",
+    "cpp/agc.h": "6561ea343a577cb002a08572cc639e9f4edd3ce818e5df564257628fe3ab2294",
+    "cpp/example.cpp": "00ff0fb996597bd5d5713811299fa5f97b2d9370fddcf8e4cff02430216771b6",
+    "CMakeLists.txt": "52ee92e153cf25293fc296cfc908137def27672b9bcfa1b018eac7de18ff3774",
+    "configs/default.json": "177365976a169e4052ccd6fc071795f2c9829b9fb72d3da3135d0da52262f79b"
+  },
+  "sdk_download": {
+    "version": "5.0.0",
+    "release_url": "https://github.com/opencv/opencv/releases/tag/5.0.0",
+    "asset_url": "https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-windows.exe",
+    "size_bytes": 195273354,
+    "sha256": "9c6c1fcea58acdf06edba13148b2246e00c2658143fa51e61ecd370db8c39f63",
+    "github_digest": "sha256:9c6c1fcea58acdf06edba13148b2246e00c2658143fa51e61ecd370db8c39f63"
+  }
+}

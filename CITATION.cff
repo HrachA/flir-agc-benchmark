@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using its implementations or numerical results."
+title: "FLIR AGC benchmark: Python, C++/OpenCV and CUDA"
+type: software
+authors:
+  - name: HrachA
+repository-code: "https://github.com/HrachA/flir-agc-benchmark"
+url: "https://github.com/HrachA/flir-agc-benchmark"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+keywords:
+  - thermal imaging
+  - automatic gain control
+  - FLIR ADAS
+  - CUDA
+  - OpenCV
+  - reconstruction benchmark

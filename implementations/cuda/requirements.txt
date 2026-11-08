@@ -1,0 +1,5 @@
+numpy>=2.2,<3
+opencv-python-headless>=4.10,<6
+Pillow>=11,<14
+matplotlib>=3.9,<4
+psutil>=6,<8

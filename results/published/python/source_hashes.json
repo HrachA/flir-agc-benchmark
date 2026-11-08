@@ -1,0 +1,8 @@
+{
+  "agc_benchmark\\__init__.py": "f70943236556b6b8ef9846854bd4b6c9d2d4dc3268b5c3731e4ac49d0159181e",
+  "agc_benchmark\\methods.py": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca",
+  "agc_benchmark\\metrics.py": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2",
+  "agc_benchmark\\report.py": "f9acfac6984a8551be5dc44ce338d87478c5bc65adbc76ae969e6a954ccbf4a3",
+  "agc_benchmark\\run.py": "500331d34cf2a7b72c400aaa7143e5fb94b0a64f3f23613eeac0ac2377310e9d",
+  "agc_benchmark\\verify.py": "d64e64d058a55919eec40292e246324b40e751fd630976620ba3092ac7c062fd"
+}

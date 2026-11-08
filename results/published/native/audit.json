@@ -1,0 +1,16 @@
+{
+  "total_tiffs": 4893,
+  "accepted": 3295,
+  "excluded": 1598,
+  "accepted_by_split": {
+    "val": 1144,
+    "test": 2151
+  },
+  "excluded_reasons": {
+    "not_uint16_source": 1598
+  },
+  "dimensions": {
+    "640x512": 3295
+  },
+  "criterion": "same-stem same-size grayscale TIFF/JPEG, uint16 TIFF, max >255 and <=16383; no resizing or alignment optimization"
+}

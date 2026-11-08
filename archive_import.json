@@ -1,0 +1,998 @@
+{
+  "description": "Original independent experiments consolidated without changing algorithm sources; no vendor image assets exported.",
+  "files": [
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": ".gitignore",
+      "export_path": "implementations/python/.gitignore",
+      "sha256": "0f92f6546e3b5131dc9163700830826eef707943e2af23c4e5b62a73350824e4"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "README.md",
+      "export_path": "implementations/python/README.md",
+      "sha256": "345355897e00e6d784b18a0974a4037eeb00b5b8646e221bbfb7dc915960f2bd",
+      "original_sha256": "d2244999d3660bdd727e4947cb930931a60c7178c58d76dfeb2283ddcce3ab8b"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/__init__.py",
+      "export_path": "implementations/python/agc_benchmark/__init__.py",
+      "sha256": "f70943236556b6b8ef9846854bd4b6c9d2d4dc3268b5c3731e4ac49d0159181e"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/methods.py",
+      "export_path": "implementations/python/agc_benchmark/methods.py",
+      "sha256": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/metrics.py",
+      "export_path": "implementations/python/agc_benchmark/metrics.py",
+      "sha256": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/report.py",
+      "export_path": "implementations/python/agc_benchmark/report.py",
+      "sha256": "f9acfac6984a8551be5dc44ce338d87478c5bc65adbc76ae969e6a954ccbf4a3"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/run.py",
+      "export_path": "implementations/python/agc_benchmark/run.py",
+      "sha256": "500331d34cf2a7b72c400aaa7143e5fb94b0a64f3f23613eeac0ac2377310e9d"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "agc_benchmark/verify.py",
+      "export_path": "implementations/python/agc_benchmark/verify.py",
+      "sha256": "d64e64d058a55919eec40292e246324b40e751fd630976620ba3092ac7c062fd"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "configs/default.json",
+      "export_path": "implementations/python/configs/default.json",
+      "sha256": "177365976a169e4052ccd6fc071795f2c9829b9fb72d3da3135d0da52262f79b"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "requirements-lock.txt",
+      "export_path": "implementations/python/requirements-lock.txt",
+      "sha256": "95c6a073328be904b7a7c444c5aefe8d4caed17fa09817beeeb1ef2d66ac2ef4"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "requirements.txt",
+      "export_path": "implementations/python/requirements.txt",
+      "sha256": "d39388c440830bcd617bed681c0930376ada3a8d21d4553b68c1c52f11f3cd17"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/REPORT.md",
+      "export_path": "results/published/python/REPORT.md",
+      "sha256": "1a34a7aceeb3c1346a01fe891c3ef253b778d5d1afc8028049d92158c5257f7f",
+      "original_sha256": "c54ea54f18eff4497555f7b8b4f53781c33949ec5da46aaccffe0c49911da72f"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/audit.json",
+      "export_path": "results/published/python/audit.json",
+      "sha256": "c14fe428bcc8bdedb94a3e8c9123e84e423d15ddac8147340e8b57bcc8600013"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/complexity.csv",
+      "export_path": "results/published/python/complexity.csv",
+      "sha256": "0247f3d01fb922d9b2c6584649201ba07041aedc64466de991a55231596c5843"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/complexity_scaling.csv",
+      "export_path": "results/published/python/complexity_scaling.csv",
+      "sha256": "986d87d9951ad59f60410da2b60ca82e7cd5ee21a1762bd0bb8b22c3afa0e75c"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/config.json",
+      "export_path": "results/published/python/config.json",
+      "sha256": "c3aabb6f64f8596fa217f7a870a3c271e6c02d8e4814d849c01cef7f4b9a1848"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/environment.json",
+      "export_path": "results/published/python/environment.json",
+      "sha256": "33f4bb16b4d3466376e4f779c4bc7206d0be2744fef7ac50a9e92f07c235470a",
+      "original_sha256": "32a38e000927e765e9362c9dc8357c4ea5c1f1472d5da5b613b0bfb15a30e543"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/environment_quality.json",
+      "export_path": "results/published/python/environment_quality.json",
+      "sha256": "8b81366fe85882f9f11ee57a6d3f72b832d431e3def7fa8bb72bd5da8110132b",
+      "original_sha256": "09ff3cb88b012f2d3917c11fee3fe2ecefe07f38c67e1a8ec919fdf8fab4c37e"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/environment_report.json",
+      "export_path": "results/published/python/environment_report.json",
+      "sha256": "4d9f06807ba55a7c90ed09b24a1c85c9f0f3bc937f03fd134a280b3d9a9efd9f",
+      "original_sha256": "2063e80bde649094903da3fa3f5c4d417aee2862990e28553c6a64166e442696"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/excluded.csv",
+      "export_path": "results/published/python/excluded.csv",
+      "sha256": "5016f6ce82d0947ab07d435fcdcc35943d5af74b7b604c3e1ee111b17fd434b2"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/figures/quality_latency.pdf",
+      "export_path": "results/published/python/figures/quality_latency.pdf",
+      "sha256": "69ece1deaab1b9774ab6b440ac324c968126c8e719d518d74a14cf40469bc6bc"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/figures/quality_latency.png",
+      "export_path": "results/published/python/figures/quality_latency.png",
+      "sha256": "4a11bc8ac173ab7959792811289234a1465203e589291662f5c44ae30905850c"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/inventory.csv",
+      "export_path": "results/published/python/inventory.csv",
+      "sha256": "43f6f937230206cb467953b7bd874f048b7214286066700bf72acfa70a27b820"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/latency_manifest.csv",
+      "export_path": "results/published/python/latency_manifest.csv",
+      "sha256": "faba5546d2b497a8bd05e1c7dcefe71c2fbac05d477f1a1b52aa76cf634cc9da"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/latency_samples.csv",
+      "export_path": "results/published/python/latency_samples.csv",
+      "sha256": "78c71e95272c29b817271464532e492a88be63d2f33dc8506717ea58c644de9f"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/latency_summary.csv",
+      "export_path": "results/published/python/latency_summary.csv",
+      "sha256": "0db7480534821a98db6d1edd0f4f3dfeba96f03d4de49d2e94fb20d9f6e011d4"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/manifest.csv",
+      "export_path": "results/published/python/manifest.csv",
+      "sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/opencv_build.txt",
+      "export_path": "results/published/python/opencv_build.txt",
+      "sha256": "75aa3671bc66aad00deaf7dd5ad0d8221f87667309b26b787e93ed9466876e44"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/quality_summary.csv",
+      "export_path": "results/published/python/quality_summary.csv",
+      "sha256": "833c2246d5acfb1cddf4283060f30881547c9b7984445177be7126c246b71011"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/run_identity.json",
+      "export_path": "results/published/python/run_identity.json",
+      "sha256": "5e0aa8cd05ca606e9bfa4355d293b72f1ab692071602f7ef66c1d281dab66fd5",
+      "original_sha256": "22f1d8d2e00e400263756403a9464fcb30576d366b1a3b897d61eed2600bf49c"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/selected_methods.csv",
+      "export_path": "results/published/python/selected_methods.csv",
+      "sha256": "83a8c07e90ea436d7c8b8da775c71eb0d3f05ef92356a96f76a777c7fed8ab76"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/selection.json",
+      "export_path": "results/published/python/selection.json",
+      "sha256": "daa5f1d33ddadddeb39a3a3062691db66718fed6c90677a1729e570371d17c87"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/source_hashes.json",
+      "export_path": "results/published/python/source_hashes.json",
+      "sha256": "c8cc83596e0d8d8777816204dd52230dfef171ce380fee5ad0abeecf4b030e90"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "run_experiment.ps1",
+      "export_path": "implementations/python/run_experiment.ps1",
+      "sha256": "930b25bed76361bc8375c578dda2bee7c8cbe3e66cbe290978a595075730ede7"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "tests/test_core.py",
+      "export_path": "implementations/python/tests/test_core.py",
+      "sha256": "0168def56f4d401f65ec57d7860dbd8ca307bcb58b5e966ace803cac912034af"
+    },
+    {
+      "source_experiment": "flir-agc-benchmark",
+      "source_path": "results/full/per_image_metrics.csv",
+      "export_path": "results/published/python/per_image_metrics.csv.gz",
+      "sha256": "9fe17567cc56e4b98b47746159f69726b2f6ae5f5ba56f6354199ff4bb14d2be",
+      "uncompressed_sha256": "2aaaa6037072d5eb9981b89b8eaa682945d25a0cec12c86aa3aaac4e59902f10"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": ".gitignore",
+      "export_path": "implementations/native/.gitignore",
+      "sha256": "6eef359daf693bbcbcd8b7aa9f4212b098ca5048c33d543e88143e9fb5e1fed3"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "CMakeLists.txt",
+      "export_path": "implementations/native/CMakeLists.txt",
+      "sha256": "52ee92e153cf25293fc296cfc908137def27672b9bcfa1b018eac7de18ff3774"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "README.md",
+      "export_path": "implementations/native/README.md",
+      "sha256": "4fecb973e4e790e2a1f0aba1f8fce58afc179526a85c18fcfcbf7a9a7ebe46bb",
+      "original_sha256": "750cd13861b662faea6c733492f2c834fb32e43d162d135148785f7f92a144bc"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/__init__.py",
+      "export_path": "implementations/native/agc_native/__init__.py",
+      "sha256": "59d3ae9899b3c886ade713f789690fcb9e645a11e2e94ab41257c0e33fa2c7e7"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/metrics.py",
+      "export_path": "implementations/native/agc_native/metrics.py",
+      "sha256": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/native.py",
+      "export_path": "implementations/native/agc_native/native.py",
+      "sha256": "f83ae78ccca3d368f3235545308fa49236c0c91c015cf3b7f2e322fa731bbe9b",
+      "original_sha256": "477bdbe1de1836cde9a3bfdd400134fbd461c24fbd8070edb0fe8e0f0a7b24cc"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/reference_methods.py",
+      "export_path": "implementations/native/agc_native/reference_methods.py",
+      "sha256": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/report.py",
+      "export_path": "implementations/native/agc_native/report.py",
+      "sha256": "aee234b685858f10caba48658329e51fc8e2679fdad913f67f6700ed6e6a95dd"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/run.py",
+      "export_path": "implementations/native/agc_native/run.py",
+      "sha256": "91c355a6fae098de7c68c498d96b018727adce0e40ef77ed1f2557b2383abcd3"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/support.py",
+      "export_path": "implementations/native/agc_native/support.py",
+      "sha256": "367889da7cfaf5655c7091abed4030315df71c83925029b9eaec0f66ad51c5d5"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "agc_native/verify.py",
+      "export_path": "implementations/native/agc_native/verify.py",
+      "sha256": "0640f71a4f976adbb100992e2ddf0bc6de640e2f6f16c5b6aed17fa222819ddd"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "configs/default.json",
+      "export_path": "implementations/native/configs/default.json",
+      "sha256": "177365976a169e4052ccd6fc071795f2c9829b9fb72d3da3135d0da52262f79b"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "cpp/agc.cpp",
+      "export_path": "implementations/native/cpp/agc.cpp",
+      "sha256": "3ccdaae40adae747589db9dc28226e93afc182cb61272cd0eed971a45f975daa"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "cpp/agc.h",
+      "export_path": "implementations/native/cpp/agc.h",
+      "sha256": "6561ea343a577cb002a08572cc639e9f4edd3ce818e5df564257628fe3ab2294"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "cpp/example.cpp",
+      "export_path": "implementations/native/cpp/example.cpp",
+      "sha256": "00ff0fb996597bd5d5713811299fa5f97b2d9370fddcf8e4cff02430216771b6"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/audit.json",
+      "export_path": "implementations/native/reference_results/audit.json",
+      "sha256": "c14fe428bcc8bdedb94a3e8c9123e84e423d15ddac8147340e8b57bcc8600013"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/environment.json",
+      "export_path": "implementations/native/reference_results/environment.json",
+      "sha256": "33f4bb16b4d3466376e4f779c4bc7206d0be2744fef7ac50a9e92f07c235470a",
+      "original_sha256": "32a38e000927e765e9362c9dc8357c4ea5c1f1472d5da5b613b0bfb15a30e543"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/latency_manifest.csv",
+      "export_path": "implementations/native/reference_results/latency_manifest.csv",
+      "sha256": "faba5546d2b497a8bd05e1c7dcefe71c2fbac05d477f1a1b52aa76cf634cc9da"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/latency_summary.csv",
+      "export_path": "implementations/native/reference_results/latency_summary.csv",
+      "sha256": "0db7480534821a98db6d1edd0f4f3dfeba96f03d4de49d2e94fb20d9f6e011d4"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/manifest.csv",
+      "export_path": "implementations/native/reference_results/manifest.csv",
+      "sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/per_image_metrics.csv.gz",
+      "export_path": "implementations/native/reference_results/per_image_metrics.csv.gz",
+      "sha256": "72205a8c899e34d54bcf49f7b0a4b12792bc6aed266c507955a01b931fa0d409"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/provenance.json",
+      "export_path": "implementations/native/reference_results/provenance.json",
+      "sha256": "aef603e53c000e4f6b72f786b74b3ff609f5fd179fec759fd5d9904a0c7e681e"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/python_opencv_build.txt",
+      "export_path": "implementations/native/reference_results/python_opencv_build.txt",
+      "sha256": "75aa3671bc66aad00deaf7dd5ad0d8221f87667309b26b787e93ed9466876e44"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/quality_summary.csv",
+      "export_path": "implementations/native/reference_results/quality_summary.csv",
+      "sha256": "833c2246d5acfb1cddf4283060f30881547c9b7984445177be7126c246b71011"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "reference_results/selection.json",
+      "export_path": "implementations/native/reference_results/selection.json",
+      "sha256": "daa5f1d33ddadddeb39a3a3062691db66718fed6c90677a1729e570371d17c87"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "requirements-lock.txt",
+      "export_path": "implementations/native/requirements-lock.txt",
+      "sha256": "95c6a073328be904b7a7c444c5aefe8d4caed17fa09817beeeb1ef2d66ac2ef4"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "requirements.txt",
+      "export_path": "implementations/native/requirements.txt",
+      "sha256": "d39388c440830bcd617bed681c0930376ada3a8d21d4553b68c1c52f11f3cd17"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/REPORT.md",
+      "export_path": "results/published/native/REPORT.md",
+      "sha256": "6d0274e0eccb0b5fc70446a45beaa9a26e499e3f6bad3a1bf98c87fcf9767e41"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/audit.json",
+      "export_path": "results/published/native/audit.json",
+      "sha256": "c14fe428bcc8bdedb94a3e8c9123e84e423d15ddac8147340e8b57bcc8600013"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/cmake_build_cache.txt",
+      "export_path": "results/published/native/cmake_build_cache.txt",
+      "sha256": "3fe7494e3113c3a4e98d91971cd4751c959ccc7e9dc29a30930ee7ea7eec1649",
+      "original_sha256": "71519e695146b299893b4f81566fcc27817037cf49dd923043e9fe5b2fa173be"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/complexity.csv",
+      "export_path": "results/published/native/complexity.csv",
+      "sha256": "0247f3d01fb922d9b2c6584649201ba07041aedc64466de991a55231596c5843"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/complexity_native.csv",
+      "export_path": "results/published/native/complexity_native.csv",
+      "sha256": "7ec998a379b9477c5901dfc20bad63fc4c08bf9190c7ce3df1ac7eeea233a5d6"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/complexity_scaling.csv",
+      "export_path": "results/published/native/complexity_scaling.csv",
+      "sha256": "1355a71cb75bfe65ea39a5f6d8187b430e0a8cc95a1bb9f274ab32c290afe85a"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/config.json",
+      "export_path": "results/published/native/config.json",
+      "sha256": "ebf1e6bd7108e240d7ba597c751c50761b6c4f2954a001f5168b5ba7b549b96d"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/environment_audit.json",
+      "export_path": "results/published/native/environment_audit.json",
+      "sha256": "214444fdfb4f416014a77d1efde29c3182604b35b2dcc23cfff5bce45e3d7442",
+      "original_sha256": "de49f1af96786303ac1b73d6b358668b8dc6da66db8bc4aafeb831153a2964de"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/environment_latency.json",
+      "export_path": "results/published/native/environment_latency.json",
+      "sha256": "10e7de882d5927e45327760a8dc62da100b24a75a3898407a787e6baf409fadb",
+      "original_sha256": "207ab526f8acc557852fb62b40fe0a0c0211ac7e362c1ca095076ef5791a403e"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/environment_quality.json",
+      "export_path": "results/published/native/environment_quality.json",
+      "sha256": "256ebda84db196de121b65a0a104c6521dac0c4f0a1abb18fd568ec245b3106f",
+      "original_sha256": "48e495b45f7a7037f7284f09bca5e1ff6174e6d452684bd71675690a1ea83db9"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/environment_report.json",
+      "export_path": "results/published/native/environment_report.json",
+      "sha256": "1f3239f5f071b513da52cb1bb88851f9ce9f55c989e05ccd4ee5870c2c81c592",
+      "original_sha256": "c608df939ae5995bacad8e82fdba61c888badfeff602ed5a72cd5fbd0d8053c7"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/excluded.csv",
+      "export_path": "results/published/native/excluded.csv",
+      "sha256": "5016f6ce82d0947ab07d435fcdcc35943d5af74b7b604c3e1ee111b17fd434b2"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/figures/native_efficiency.pdf",
+      "export_path": "results/published/native/figures/native_efficiency.pdf",
+      "sha256": "238d9a85055992b28cb7e25c064166d3a3b84c5446806bf14b4f040f66d5f993"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/figures/native_efficiency.png",
+      "export_path": "results/published/native/figures/native_efficiency.png",
+      "sha256": "3bef21feea7ed5d9979829affaab48147d1cea9a32cd68f1e31eb663c0668c50"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/inventory.csv",
+      "export_path": "results/published/native/inventory.csv",
+      "sha256": "43f6f937230206cb467953b7bd874f048b7214286066700bf72acfa70a27b820"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/latency_manifest.csv",
+      "export_path": "results/published/native/latency_manifest.csv",
+      "sha256": "faba5546d2b497a8bd05e1c7dcefe71c2fbac05d477f1a1b52aa76cf634cc9da"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/latency_samples.csv",
+      "export_path": "results/published/native/latency_samples.csv",
+      "sha256": "e719a672fb9b8c080f894446bbfb2e31caf7c7a471783e3cc70c396604d248ab"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/latency_summary.csv",
+      "export_path": "results/published/native/latency_summary.csv",
+      "sha256": "557dd7a03ea6923d71c70cf47b921deb50e1576230cbfb739d8e72a02ad3ed5a"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/manifest.csv",
+      "export_path": "results/published/native/manifest.csv",
+      "sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/native_opencv_build.txt",
+      "export_path": "results/published/native/native_opencv_build.txt",
+      "sha256": "6cba835665b8fd28256c38347c1dfdceabb234a9fd6cef5a1e7c7562a545d9f6"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/parity_summary.csv",
+      "export_path": "results/published/native/parity_summary.csv",
+      "sha256": "251dd7452a5d1758dfa2a789208470e80feb9375e04369a5cdec0876fe55d99e"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/provenance.json",
+      "export_path": "results/published/native/provenance.json",
+      "sha256": "943e6f343548eaa78ae08accb58514d756c2cbdd84a926c7cc43a63a411e46d8",
+      "original_sha256": "379ccfcb886f24db7806c436c12854a640504fb92d995ac7aefebf8a1785d6a3"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/python_opencv_build.txt",
+      "export_path": "results/published/native/python_opencv_build.txt",
+      "sha256": "75aa3671bc66aad00deaf7dd5ad0d8221f87667309b26b787e93ed9466876e44"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/quality_protocol.json",
+      "export_path": "results/published/native/quality_protocol.json",
+      "sha256": "5d03b4544cbc6ade88274b370a96172f0c908d43b3a9f854e1b3fd0de07b9ad7"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/quality_summary.csv",
+      "export_path": "results/published/native/quality_summary.csv",
+      "sha256": "5dd87278138062357698282283cd3b220625688be71dbc95ce206aa9f62e3c2e"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/selection.csv",
+      "export_path": "results/published/native/selection.csv",
+      "sha256": "3a9d8e9c8ed946d0340a731c5f5fe1565c7dc3da15e23811ac73677352f46fa1"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/thread_determinism.csv",
+      "export_path": "results/published/native/thread_determinism.csv",
+      "sha256": "095623f9d138ef35600fb0754b7ca1307d269b917993ccbc738ab0e0ceff0028"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "tests/test_native.py",
+      "export_path": "implementations/native/tests/test_native.py",
+      "sha256": "a569905a091f88d449dedde5746cfc0110573da14117f28a9b37533301d0b6c3"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "tools/build.ps1",
+      "export_path": "implementations/native/tools/build.ps1",
+      "sha256": "abc4399e1c12a7d0357842af7aad01949e61353a5bc728e79d4c0d5cd0f39f02"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "tools/setup_opencv.py",
+      "export_path": "implementations/native/tools/setup_opencv.py",
+      "sha256": "b8cc03f00a91e3d3fa0b79db18b4e51d156895a0397150905d8f2b284b701069"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/per_image_metrics.csv",
+      "export_path": "results/published/native/per_image_metrics.csv.gz",
+      "sha256": "803ecc1078ddf6cd353feb21393963be46516fe75b59e59ef2e7d8320c43ead3",
+      "uncompressed_sha256": "91d5a953a7c7ea873dd1dd79fcdcb185fcadc4be06b8aba959a7c1d984194e82"
+    },
+    {
+      "source_experiment": "flir-agc-native",
+      "source_path": "results/full/parity_per_image.csv",
+      "export_path": "results/published/native/parity_per_image.csv.gz",
+      "sha256": "871e795e9e8d33bd5d7588b5f54cbfadd36088ebdc3740b33e6cc750a3387f6a",
+      "uncompressed_sha256": "faa81c0b524f05dbb4d990aa1dfdbed8e80025086e630fe83bb5f081e65151b4"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": ".gitignore",
+      "export_path": "implementations/cuda/.gitignore",
+      "sha256": "d200b0a3ce0e25686648f19f55e52cbc3932911d8685c2ac32a64dd53bd0c821"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "CMakeLists.txt",
+      "export_path": "implementations/cuda/CMakeLists.txt",
+      "sha256": "d3f900b61588e3c3afdd28b42e90720a7708fb2060604183f499358e43d0a490"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "README.md",
+      "export_path": "implementations/cuda/README.md",
+      "sha256": "e2c9a1ec2e10f1d2624ff6f56a17fd7f057ff6d5e50fd75716ca8fb33b27acb8",
+      "original_sha256": "f8b272a376e07f3e65360703c185b5c351bab9c65f285066986cb95d72e4c546"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "THIRD_PARTY_NOTICES.txt",
+      "export_path": "implementations/cuda/THIRD_PARTY_NOTICES.txt",
+      "sha256": "ff2bd4414d567eadf4f0fbcdb02189da71ff861361f6870e70297b189e4145ff"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/__init__.py",
+      "export_path": "implementations/cuda/agc_cuda/__init__.py",
+      "sha256": "955508411df8964bbaa0c4553e7a343800a8e3105b354a61647829c198c6875b"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/backend.py",
+      "export_path": "implementations/cuda/agc_cuda/backend.py",
+      "sha256": "fbac6958be3ae3862b5db18eb501bc4e3311cdc49e310b73ca87cdc8a9e78902",
+      "original_sha256": "045024415c8a9c0fe99fb5e0e102b6e06f055dc471037cb1b3465f44b3d346f6"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/metrics.py",
+      "export_path": "implementations/cuda/agc_cuda/metrics.py",
+      "sha256": "3307289bac05fd9c39d2c642665c6c2d28ac2d04a2fe3f279600fcd913ce46c2"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/reference_methods.py",
+      "export_path": "implementations/cuda/agc_cuda/reference_methods.py",
+      "sha256": "b9dd77887f79e07856c3e2cc0bd1abaea0f1ae4260758fe036181b77966d23ca"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/report.py",
+      "export_path": "implementations/cuda/agc_cuda/report.py",
+      "sha256": "b54bb6e9546207421452e64f0e5d21810cbe306ee88a1afa43b95c4102897b3d"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/run.py",
+      "export_path": "implementations/cuda/agc_cuda/run.py",
+      "sha256": "2891a895ec7c0d30732f799c461b5a9f2627aa1569c0c4f3c5fa6c7712a179c6"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/support.py",
+      "export_path": "implementations/cuda/agc_cuda/support.py",
+      "sha256": "367889da7cfaf5655c7091abed4030315df71c83925029b9eaec0f66ad51c5d5"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "agc_cuda/verify.py",
+      "export_path": "implementations/cuda/agc_cuda/verify.py",
+      "sha256": "a842c08cb90bbdf2887e7b843d40feccd21be6edc38df8bd8f206c93f28ef67a"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "configs/default.json",
+      "export_path": "implementations/cuda/configs/default.json",
+      "sha256": "177365976a169e4052ccd6fc071795f2c9829b9fb72d3da3135d0da52262f79b"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "cuda/agc.cu",
+      "export_path": "implementations/cuda/cuda/agc.cu",
+      "sha256": "88652bd38a5c74debfc0b6266dab616c4f22acbd445f07dd0b3225db96a35738"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "cuda/agc_cuda.h",
+      "export_path": "implementations/cuda/cuda/agc_cuda.h",
+      "sha256": "63630424b1624dc2bdd9a38f51dd8dafdd2002086502e380d1b8178ebed24bd8"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/cpu_environment.json",
+      "export_path": "implementations/cuda/reference_results/cpu_environment.json",
+      "sha256": "10e7de882d5927e45327760a8dc62da100b24a75a3898407a787e6baf409fadb",
+      "original_sha256": "207ab526f8acc557852fb62b40fe0a0c0211ac7e362c1ca095076ef5791a403e"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/latency_manifest.csv",
+      "export_path": "implementations/cuda/reference_results/latency_manifest.csv",
+      "sha256": "faba5546d2b497a8bd05e1c7dcefe71c2fbac05d477f1a1b52aa76cf634cc9da"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/manifest.csv",
+      "export_path": "implementations/cuda/reference_results/manifest.csv",
+      "sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/native_cpu_latency.csv",
+      "export_path": "implementations/cuda/reference_results/native_cpu_latency.csv",
+      "sha256": "557dd7a03ea6923d71c70cf47b921deb50e1576230cbfb739d8e72a02ad3ed5a"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/per_image_metrics.csv.gz",
+      "export_path": "implementations/cuda/reference_results/per_image_metrics.csv.gz",
+      "sha256": "72205a8c899e34d54bcf49f7b0a4b12792bc6aed266c507955a01b931fa0d409"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/provenance.json",
+      "export_path": "implementations/cuda/reference_results/provenance.json",
+      "sha256": "aef603e53c000e4f6b72f786b74b3ff609f5fd179fec759fd5d9904a0c7e681e"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "reference_results/python_opencv_build.txt",
+      "export_path": "implementations/cuda/reference_results/python_opencv_build.txt",
+      "sha256": "75aa3671bc66aad00deaf7dd5ad0d8221f87667309b26b787e93ed9466876e44"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "requirements-lock.txt",
+      "export_path": "implementations/cuda/requirements-lock.txt",
+      "sha256": "95c6a073328be904b7a7c444c5aefe8d4caed17fa09817beeeb1ef2d66ac2ef4"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "requirements.txt",
+      "export_path": "implementations/cuda/requirements.txt",
+      "sha256": "d39388c440830bcd617bed681c0930376ada3a8d21d4553b68c1c52f11f3cd17"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/REPORT.md",
+      "export_path": "results/published/cuda/REPORT.md",
+      "sha256": "125221e6fe563a26da8ad74a4a6a4fe6546f35bc56ac30f6890af0e0c8e97daf"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/audit.json",
+      "export_path": "results/published/cuda/audit.json",
+      "sha256": "c14fe428bcc8bdedb94a3e8c9123e84e423d15ddac8147340e8b57bcc8600013"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/batch_integrity.csv",
+      "export_path": "results/published/cuda/batch_integrity.csv",
+      "sha256": "7bd979d4c9a60ed8a914715adadb83d45d667f2f0156c64b00b46586577a33bf"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/batch_samples.csv",
+      "export_path": "results/published/cuda/batch_samples.csv",
+      "sha256": "696faa9a074257d8064a18948fa03c9c2c7a359d5305aaa7af68fd34b51d0379"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/batch_summary.csv",
+      "export_path": "results/published/cuda/batch_summary.csv",
+      "sha256": "a55f08541beb1633734a17ba394db75b1f75ade91cfefe8d3e121b273f53f60d"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/cmake_build_cache.txt",
+      "export_path": "results/published/cuda/cmake_build_cache.txt",
+      "sha256": "8adb928e63fe0913ba65e3e97dc45eaa5fdafaa91321ababc21b228a40d09b65",
+      "original_sha256": "a046a88e41e7d2c038c749631f34df32449b3df6e1a6562edeb855aad73e57bc"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/complexity_cuda.csv",
+      "export_path": "results/published/cuda/complexity_cuda.csv",
+      "sha256": "2fd7b615ad5bddf434b3bbc4c6251ac078a8ffc83c84a14870106e826e0af1e3"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/complexity_scaling.csv",
+      "export_path": "results/published/cuda/complexity_scaling.csv",
+      "sha256": "77a42f2199662fbfa5d1605f567830f805ea738f28c6ceb599be0da57d4162e5"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/config.json",
+      "export_path": "results/published/cuda/config.json",
+      "sha256": "682349528dc11a7b7fcaaf86f82f097b3841f25a6765939eb4a6b7bba49df344"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/environment_audit.json",
+      "export_path": "results/published/cuda/environment_audit.json",
+      "sha256": "89113f8a189abe3f47f3b59cf08912e1b08143308235a941849d74956f594782",
+      "original_sha256": "723ed2ee900a6aa9b523b9f8bf3aaf72149d503a81fd34d5614a90100455d545"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/environment_batch.json",
+      "export_path": "results/published/cuda/environment_batch.json",
+      "sha256": "0508bf869fbb49c528a8179df8de63bb67806a535b5b96879b122750e6e474fc",
+      "original_sha256": "76f284b740fbdd899b21b1eda8cd283b523aa01663423db97b580e346fbeefd0"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/environment_latency.json",
+      "export_path": "results/published/cuda/environment_latency.json",
+      "sha256": "81ca065e074dfedcc050e881595d8f168a605c5f9edb4b8e25bf851b0e31f3cf",
+      "original_sha256": "a7afdda41f08bd8a4e6d8eef3c9f8c5dcf571e3793243665d0907c12459bad00"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/environment_quality.json",
+      "export_path": "results/published/cuda/environment_quality.json",
+      "sha256": "4934ab0676b5e1f34788e2720ef1388f7e066dfa8e126b4f33e4a6cbb242b8a7",
+      "original_sha256": "7253d8039b056a089f7dcc03aec0e8f114ce458803ce0f95f8f2cff099ec5b0c"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/environment_report.json",
+      "export_path": "results/published/cuda/environment_report.json",
+      "sha256": "9d27545590e0a4660482154f66d24262a375f2187e35ff5bae1258c891b9f2cb",
+      "original_sha256": "1963e9ae89b44059192a4c82674a6125eec7731b41e5a1f08616cc15db1c9126"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/excluded.csv",
+      "export_path": "results/published/cuda/excluded.csv",
+      "sha256": "5016f6ce82d0947ab07d435fcdcc35943d5af74b7b604c3e1ee111b17fd434b2"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/figures/cuda_efficiency.pdf",
+      "export_path": "results/published/cuda/figures/cuda_efficiency.pdf",
+      "sha256": "608944c2b151144595be2e83ff6b41a31c48641e67a32dff4392053bf5b22b23"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/figures/cuda_efficiency.png",
+      "export_path": "results/published/cuda/figures/cuda_efficiency.png",
+      "sha256": "de828e68326fd0c7600cef5cbf1abacf67f7a90c4409f0cfe0dbd22ef3633eac"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/inventory.csv",
+      "export_path": "results/published/cuda/inventory.csv",
+      "sha256": "43f6f937230206cb467953b7bd874f048b7214286066700bf72acfa70a27b820"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/latency_manifest.csv",
+      "export_path": "results/published/cuda/latency_manifest.csv",
+      "sha256": "faba5546d2b497a8bd05e1c7dcefe71c2fbac05d477f1a1b52aa76cf634cc9da"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/latency_samples.csv",
+      "export_path": "results/published/cuda/latency_samples.csv",
+      "sha256": "0ed431dc2eb92ed081e28e03ce30b48f756927a5d2a7e1f830adfacd56e85aba"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/latency_summary.csv",
+      "export_path": "results/published/cuda/latency_summary.csv",
+      "sha256": "c525a7f9bf50d16704dcc49c646cdca607a49d091a4c36c1cdb2458ae3fcfea2"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/manifest.csv",
+      "export_path": "results/published/cuda/manifest.csv",
+      "sha256": "0f9bba7be682a53fedb2c7e47a2dc12427747365ecd0a75285fff48eb69de67a"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/nvidia_smi_audit.txt",
+      "export_path": "results/published/cuda/nvidia_smi_audit.txt",
+      "sha256": "a4ca80e796d2d32482cd4405b9c17e5a034f35968ed64a01b844f3a5d85c0e48"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/nvidia_smi_batch.txt",
+      "export_path": "results/published/cuda/nvidia_smi_batch.txt",
+      "sha256": "a9bbde2234e296b126b38780a1a58eff401183e296c466c4392a5366f386e941"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/nvidia_smi_latency.txt",
+      "export_path": "results/published/cuda/nvidia_smi_latency.txt",
+      "sha256": "4531f6c94ac0067a157783431f45cd1a900f057f36b3f96acb7b40a1c789bda9"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/nvidia_smi_quality.txt",
+      "export_path": "results/published/cuda/nvidia_smi_quality.txt",
+      "sha256": "9bd1666760f803c8e9b1a28ae509fdf28eec7f53513cd9183f6b0ba8923744bd"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/nvidia_smi_report.txt",
+      "export_path": "results/published/cuda/nvidia_smi_report.txt",
+      "sha256": "ffd47fe51faa5a4a1de9321b3c99870ca13848f6edaf3a8e0693ea20f99f3100"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/parity_summary.csv",
+      "export_path": "results/published/cuda/parity_summary.csv",
+      "sha256": "6aa4e4170e88b44c662e89cfd8418dccd43f18be352668d9ec456cb153ef7961"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/provenance.json",
+      "export_path": "results/published/cuda/provenance.json",
+      "sha256": "0e9a7e067c705a91baf987598736090829360cff780b6675862cf9633cf661e6",
+      "original_sha256": "592f9ef23e42224fbfd8b165a6957129043c27968f7c5d128a94fe93cb3df8d1"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/quality_protocol.json",
+      "export_path": "results/published/cuda/quality_protocol.json",
+      "sha256": "b96b61c4444eb2ce8d838619afd067884be79e5730fb313bda79c2a514a00de1"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/quality_summary.csv",
+      "export_path": "results/published/cuda/quality_summary.csv",
+      "sha256": "30c8184cc34d386d1c40e700741c5ac16467bee6308bb817133702cce91e5c84"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/selection.csv",
+      "export_path": "results/published/cuda/selection.csv",
+      "sha256": "5070e96d036f2afe3e1e69738e1cdb63fbf10574a2117074687b6d6c09b87447"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/workspace.csv",
+      "export_path": "results/published/cuda/workspace.csv",
+      "sha256": "b4d1761a0cca16fc84ec3bd4cadaf15645104c176b799bc53b4e3eec4699f1dd"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "tests/test_cuda.py",
+      "export_path": "implementations/cuda/tests/test_cuda.py",
+      "sha256": "3ebb9e23645381cb0e621e4f196e36897c25a66abcdec2c9136bdad84d85c6cd"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "tools/build.ps1",
+      "export_path": "implementations/cuda/tools/build.ps1",
+      "sha256": "55dc82eba0ef4db3cb8d3ca56d250a6bb51065bc4b3047d90563d3420703ae14"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/per_image_metrics.csv",
+      "export_path": "results/published/cuda/per_image_metrics.csv.gz",
+      "sha256": "9514cdc47870884ec878ddc738139be6a29c9482cc7011a88088195c96e81e96",
+      "uncompressed_sha256": "d52d20df61fb64f1aa9f54e339336d64dd80a7c287d27ede4c92fdd16c49306b"
+    },
+    {
+      "source_experiment": "flir-agc-cuda",
+      "source_path": "results/full/parity_per_image.csv",
+      "export_path": "results/published/cuda/parity_per_image.csv.gz",
+      "sha256": "d1b3cad8801dddc53ae4f8e5a8a11d1b4f593d9c0a1433225cc23b0a7e7f6fea",
+      "uncompressed_sha256": "6dd343905ea87d3fe6eda3c7e716bbf160f788c1749afd8917a252eb5efa8237"
+    }
+  ],
+  "publication_notes": {
+    "redacted_local_path_fields": [
+      "implementations/cuda/reference_results/cpu_environment.json",
+      "implementations/native/reference_results/environment.json",
+      "results/published/cuda/cmake_build_cache.txt",
+      "results/published/cuda/environment_audit.json",
+      "results/published/cuda/environment_batch.json",
+      "results/published/cuda/environment_latency.json",
+      "results/published/cuda/environment_quality.json",
+      "results/published/cuda/environment_report.json",
+      "results/published/cuda/provenance.json",
+      "results/published/native/cmake_build_cache.txt",
+      "results/published/native/environment_audit.json",
+      "results/published/native/environment_latency.json",
+      "results/published/native/environment_quality.json",
+      "results/published/native/environment_report.json",
+      "results/published/native/provenance.json",
+      "results/published/python/environment.json",
+      "results/published/python/environment_quality.json",
+      "results/published/python/environment_report.json",
+      "results/published/python/run_identity.json"
+    ],
+    "excluded_assets": "Vendor-image representative figures and original image files are not redistributed.",
+    "algorithm_sources": "Unchanged bytes; doc links and historical path fields may differ from the original.",
+    "line_endings": "No Git text conversion; source/config/cache hashes are byte-preserved.",
+    "integration_changes": "Only native/CUDA bridge DLL lookup was extended to honor configured external SDKs; renderer kernels and reference sources are unchanged."
+  }
+}

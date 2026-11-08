@@ -1,0 +1,30 @@
+{
+  "primary_metric": "image-mean SSIM on validation",
+  "global_validation_winner": "plateau_p1000",
+  "test_evaluation": {
+    "split": "test",
+    "method": "plateau_p1000",
+    "family": "plateau",
+    "images": 2151,
+    "sequences": 6,
+    "ssim_mean": 0.8625928197837,
+    "ssim_std": 0.018754838757953092,
+    "ssim_sequence_macro": 0.8637322514538353,
+    "psnr_db_mean": 22.031727415848838,
+    "psnr_db_std": 2.5623057204877497,
+    "psnr_db_sequence_macro": 22.31191418676889,
+    "mae_mean": 18.45464452426969,
+    "mae_std": 5.67784058305485,
+    "mae_sequence_macro": 18.006180120670546,
+    "rmse_mean": 21.025087519410373,
+    "rmse_std": 5.6910468650803026,
+    "rmse_sequence_macro": 20.42371812291318,
+    "correlation_mean": 0.9917214821017009,
+    "correlation_std": 0.00382777246877802,
+    "correlation_sequence_macro": 0.9917683405633139,
+    "hist_w1_graylevels_mean": 18.06660282377973,
+    "hist_w1_graylevels_std": 5.834541878335132,
+    "hist_w1_graylevels_sequence_macro": 17.57626363542822
+  },
+  "no_test_parameter_tuning": true
+}

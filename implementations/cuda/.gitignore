@@ -1,0 +1,6 @@
+.venv/
+build/
+__pycache__/
+results/**/per_image_metrics.csv
+results/**/parity_per_image.csv
+.mplconfig/

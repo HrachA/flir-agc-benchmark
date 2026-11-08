@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+build/
+third_party/
+results/**/per_image_metrics.csv
+results/**/parity_per_image.csv
+results/**/native_cli_example.png
+.mplconfig/
